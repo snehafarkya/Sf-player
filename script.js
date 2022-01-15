@@ -75,7 +75,7 @@ function load_track(index_no){
 
 	timer = setInterval(range_slider ,1000);
 	total.innerHTML = All_song.length;
-	present.innerHTML = index_no + 2;
+	present.innerHTML = index_no + 1;
 }
 
 load_track(index_no);
